@@ -1,6 +1,5 @@
 # Moonboot: let's arbitrage on Binance 
 
-
 ## Installation
 ```bash
 python3 -m venv venv 
@@ -35,7 +34,7 @@ spot 0.075% in BNB
 - X/BNB
 - BUSD/BNB
 
-## Errors
+### Errors
 APIError(code=-1013): Filter failure: MIN_NOTIONAL
 
 
@@ -53,7 +52,7 @@ OR
 wscat -c wss://stream.binance.com:9443/ws/btcusdt@kline_5m
 ```
 
-### Orders Examples
+## Binance Orders Examples
 ```python
 {'symbol': 'ETHBUSD', 'orderId': 7760933105, 'orderListId': -1, 
 'clientOrderId': 'RKPcQ9jAOT8LlUYK3xygGB', 'transactTime': 1644342622758, 
